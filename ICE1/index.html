@@ -1,17 +1,19 @@
 <!DOCTYPE html>
+<!-- Live site -->
+
 <html lang = "en">
 	
 <head>
 	<meta charset = "utf-8">
 	<title>ICE-HTML1</title>
-	<link href="http://icons.iconarchive.com/icons/shiftercat/rose/256/Rose-Cerise-icon.png" rel="icon">
+	<link href="http://icons.iconarchive.com/icons/sbstnblnd/plateau/256/Apps-aqualung-icon.png" type="icon" rel="icon">
 </head>
 
 <header>
 	<h1>Welcome to Ibrahim's website!</h1>
 </header>
 
-<body style="background-color:powderblue;">
+<body>
 
 	<h3>Our Sketch!</h3>
 		<img src="img/sketch.jpg" alt="Site design" style="width:700px;height:450px;">
@@ -31,24 +33,24 @@
 		<p>I've realized the rare opportunities when my entire day is free could be stressful as well. This is because I have to make the active choice of what work or activiites to prioritize and then tell myself, "Wow! I had the whole day free and I accomplished a lot!" So today, I woke up naturally about 10am and read my book from my bed. About 12pm, I had "breakfast" and then made my way down to the Law Library where I *actually* did my readings for my upcoming classes! At 6:30pm, I went to my org's Marketing Lockdown, where we all sat on our computers and tried to recruit people for our upcoming conference. Lastly, at 11pm, my roommate and I ordered food and watched Moana. I'm happy to say this day was staightforward and I feel satisfied for not only doing my work, but hanging out with my friends and roommate too! :)</p>
 	
 	<h4>Feel free to reach out!</h4>
-	<form>
-		Name:
+	<form action="mailto:iarashee@umich.edu" method="post" enctype="text/plain">
+		<label for="name">Name:</label>
 		<input type="text" name="name" id = "name"></label><br>
 		<label for="dob">DOB:</label>
 		<input type="date" name="DOB" id = "dob"><br>
 
-		Email:
+		<label for="email">Email:</label>
 		<input type="text" name="email" id = "email"></label><br>
 
-		Phone:
+		<label for="phone">Phone:</label>
 		<input type="tel" name="phone" id = "phone"></label><br>
 
 		Please enter your preffered method of contact:<br>
-		<input type="radio" name="method" value="email"> Email<br>
-  		<input type="radio" name="method" value="phone"> Phone<br>
+		<label><input type="radio" name="method" value="email"> Email</label><br>
+  		<label><input type="radio" name="method" value="phone"> Phone</label><br>
 
-  		Please enter your message:<br>
-		<input type="text" name="comment" size="50"><br><br>
+  		<label for= "comment">Please enter your message:</label><br>
+		<label><input type="text" name="comment" id="comment" size="50"></label><br>
 		<input type="submit" value="Send">
 		<input type="reset" value="Reset">
 	</form>
@@ -60,10 +62,8 @@
 
 	<h4>While you're here, check out my awesome friends' sites too!</h4>
 		<nav>
-			<a href="#mackenzie">Mackenzie!</a>
-			<a href="#rebecca">Rebecca!</a>
-			<a href="#sabine">Sabine!</a>
-			<a href="#ibrahim">Ibrahim!</a>
+			<a href="https://mchy8.github.io/">Mackenzie!</a>
+			<a href="https://sabinehutter.github.io/">Sabine!</a>
 		</nav>
 </body>
 
