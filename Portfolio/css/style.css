@@ -26,13 +26,13 @@ a.skip:active, a.skip:focus, a.skip:hover {
 	z-index: 999;
 }
 html, body, header, footer{
-    background-color: ##FFFAFA;
+    background-color: #F5FFFA;
     font-family: 'Georgia', sans-serif;
     margin: 0;
     padding: 0;
 }
 header, footer, .logo {
-	background-color: #211D24;
+	background-color: #0d98ba;
 	color: #DDDDDA; 
 }
 body{
@@ -90,7 +90,7 @@ header{
 .top-nav ul{
 	list-style-type: none;
 	padding: 0;
-	background-color: #211D24; /*CHANGE*/
+	background-color: #0d98ba; /*CHANGE*/
 	margin: 0;
 	display: block;
 }
@@ -143,7 +143,7 @@ header{
 
 /*-----LOGO-----*/
 .logo{
-	background-color: #211D24; /*CHANGE*/
+	background-color: #0d98ba; /*CHANGE*/
 	margin: 0;
 	text-align: center;
 	padding: .25em .75em;
