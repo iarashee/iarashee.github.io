@@ -27,12 +27,13 @@ a.skip:active, a.skip:focus, a.skip:hover {
 }
 html, body, header, footer{
     background-color: #F5FFFA;
-    font-family: 'Georgia', sans-serif;
+    /*background: radial-gradient(red);*/
+   	font-family: 'Times New Roman', sans-serif;
     margin: 0;
     padding: 0;
 }
 header, footer, .logo {
-	background-color: #0d98ba;
+	background-color: #F5FFFA;
 	color: #DDDDDA; 
 }
 body{
@@ -40,10 +41,10 @@ body{
 	flex-direction: column;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Times New Roman', sans-serif;
 }
 p{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Times New Roman', sans-serif;
 }
 h1{ 
 	font-size: 1.75em;
@@ -82,7 +83,7 @@ h6{
 header{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 105%;
-    box-shadow: 0px 18px 26px 1px rgba(141, 141, 139, .75);
+    /*box-shadow: 0px 18px 26px 1px rgba(141, 141, 139, .75);*/
     width: 100%;
     position: fixed;
 }
@@ -90,7 +91,7 @@ header{
 .top-nav ul{
 	list-style-type: none;
 	padding: 0;
-	background-color: #0d98ba; /*CHANGE*/
+	background-color: #F5FFFA; /*CHANGE*/
 	margin: 0;
 	display: block;
 }
@@ -114,7 +115,7 @@ header{
 	text-align: center;
 }
 .top-nav ul li a.current-page{
-	color: #F54320;
+	color: #98ff98;
 	font-weight: bold;
 }
 .top-nav ul li a.current-page:before {
@@ -141,9 +142,14 @@ header{
 	display: block;
 }
 
+.pure-menu-horizontal {
+	margin: 2em 0;
+	text-align: right;
+}
+
 /*-----LOGO-----*/
 .logo{
-	background-color: #0d98ba; /*CHANGE*/
+	background-color: #F5FFFA; /*CHANGE*/
 	margin: 0;
 	text-align: center;
 	padding: .25em .75em;
@@ -204,3 +210,28 @@ footer p{
   	display: block;
   	box-shadow: 0px 0px 10px rgba(141, 141, 139, .75);
 }
+
+/*-----PROFESSIONAL PAGE------*/
+
+}
+.work, .leadership{
+	position: relative;	
+}
+
+.work{
+	grid-column-start: 0;
+	grid-column-end: 3;
+	color: red;
+}
+
+.leadership{
+	grid-column-start:4;
+	grid-column-end: 6;
+}
+
+}
+.experience{
+	line-height: 0;
+	padding: 5px;
+}
+

@@ -5,26 +5,34 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!--Style-->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/blog.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+
 
 </head>
 
 <body class="body body-home">
-	<a href="#main-content" class="skip">Skip navigation</a> 
 	
-	<header>
-		<nav id = "top-nav" class="top-nav">
+	<header class="header">
+		<nav>
 			
 			<div class="logo">
 			<a href="index.html"><img src="img/insignia.png" alt="insignia"></a>
        		</div>
 	       
-	       <ul>
-	            <li><a href="index.html">HOME</a></li>
-	            <li><a href="professional.html">Professional</a></li>
-	            <li><a class="current-page" href="blog.html">Blog</a></li>
-	            <li><a href="contact.html">Contact</a></li>
+	       <ul class="pure-menu-horizontal">
+	            <li class="pure-menu-item pure-menu-selected">
+	            	<a href="index.html" class="pure-menu-link">HOME</a></li>
+	           
+	            <li class="pure-menu-item pure-menu-selected">
+	            	<a href="professional.html" class="pure-menu-link">Professional</a></li>
+	           
+	            <li class="pure-menu-item pure-menu-selected">
+	            	<a href="blog.html" class="pure-menu-link">Blog</a></li>
+	           
+	            <li class="pure-menu-item pure-menu-selected">
+	            	<a href="contact.html" class="pure-menu-link">Contact</a></li>
 	        
 	        </ul>   
    		</nav>
@@ -32,30 +40,45 @@
 
 	</header>
 	
-	<div id="main-content" class="main-content main-content-crafts">
+	<div class="content">
 
-	<div class= "post">
-		<h2 color = "yellow">Victoria & Abdul Movie Review</h2>
-		<h3>Date: March 29, 2018</h3>
-		<img src="img/vanda.png" align= "right">
-		<p> I watched Victoria & Abdul on October 10, 2017 at Michigan Theater. It is about Queen Victoria (r. Queen of UK 1837-1901, Empress of India 1876-1901) and the close relationship with her personal servant Abdul Karim (office 1892-1901). Abdul arrives from India to present the Queen with a gift as part of her Diamond Jubilee and she quickly comes to enjoy him. Her favoritism, especially of an Indian Muslim, infuriates her household.<p>
-		<p>The movie is cheery to watch. The scenes are bright with lots of colors and the majesty of the monarch. The dialogues are quick, even the negative scenes did not draw out for long. However, the overall plot was not particularly engaging. As a consequence of the light mood and quick scenes, it was difficult to be drawn in, held in suspense, or seem particularly invested in the characters. Judi Dench plays a fantastic Queen Victoria as the role requires it. Ali Fazal as Abdul Karim, on the other hand, was disappointing. His doughy-eyes and blind love for the Queen and an empire which colonized his people was confusing. This leads to the larger issue of there being little plot development throughout the movie.<p>
-		<p>In the beginning, Abdul adores the Queen, and he still does at the end. The Queen immediately likes him, and she continues to until her end. The household is against their relationship since the beginning, and remains to be at the end as well. If the movie was comfortable with adjusting the true story of the relationship (as said in the beginning of the movie, "Based on real events ... mostly") then they would have done better to include more opportunities for development. Two conflicts of the movie - Abdul's lie about the Mutiny and his knighthood - are too easily resolved. Victoria & Abdul would have done well to allot time for more plot and character development.</p>
-		<p>Personally, I am uncomfortable by the whitewashing of the film. First, Abdul is blindly devoted to the Queen and empire and little to no effort is made for him to explain how he reconciles working for the Queen while she is also the colonizing ruler of India. He comes off as incompetent and and two-dimensional. His ignorance and lack of a desire for agency appears as him to be used as a token by the Queen to express her frustrations at her household, family, and resentment at her role. He is ultimately selfish when he cares more about his own position and closeness to the Queen instead of listening to the request of his friend Buksh, who is clearly suffering in Britain and humiliated by being remaining a lowly servant.</p>
-		<p>Second, it is uncomfortable and confusing for the Queen to be seen as a progressive supporter of people of color and India when she continues to act uncaring of the subcontinent. In the film, she does not seek out the details of the Mutiny, silences her prime minister when he talks about about famine and problems abroad, and reacts indifferently to Abdul when he explains the tragedies of the Peacock Throne and the Koh-i-Noor diamond. She is ultimately more concerned about using Abdul as a pawn for her own frustrations, so the film's attempt to paint her a progressive champion of race is futile.</p>
-		<p>The historical inaccuracies of the movie deserve their own section. I cringed when "Urdu" was used because historically it was called Hindustani at the time. However, I decided to solely analyze this piece as a film of it's own. More information on inaccuracies can be found on sites such as these.</p>
-		<p>Ultimately, I would not recommend this film for enjoyable or learning purposes. As a Muslim and South Asian with a great interest for that time period, much of the movie was cringeworthy to watch. Abdul's immaturity, the failed attempt to paint Queen Victoria as progressive, lack of plot and character development, and historical inaccuracies make the film difficult to swallow. I hope that more high profile movies with good intentions which try to positively portray the Indian subcontinent come about and that they stay true to the historical context in addition to being light and comedic like Victoria & Abdul is.</p>
+		<div class= "post">
+			<h2 class="post-title">Victoria & Abdul Movie Review</h2>
+			<h3 class="post-meta">Date: March 29, 2018</h3>
+			<img class="post-avatar" src="img/vanda.png" align= "right">
+			<p> I watched Victoria & Abdul on October 10, 2017 at Michigan Theater. It is about Queen Victoria (r. Queen of UK 1837-1901, Empress of India 1876-1901) and the close relationship with her personal servant Abdul Karim (office 1892-1901). Abdul arrives from India to present the Queen with a gift as part of her Diamond Jubilee and she quickly comes to enjoy him. Her favoritism, especially of an Indian Muslim, infuriates her household.<p>
+			<p>The movie is cheery to watch. The scenes are bright with lots of colors and the majesty of the monarch. The dialogues are quick, even the negative scenes did not draw out for long. However, the overall plot was not particularly engaging. As a consequence of the light mood and quick scenes, it was difficult to be drawn in, held in suspense, or seem particularly invested in the characters. Judi Dench plays a fantastic Queen Victoria as the role requires it. Ali Fazal as Abdul Karim, on the other hand, was disappointing. His doughy-eyes and blind love for the Queen and an empire which colonized his people was confusing. This leads to the larger issue of there being little plot development throughout the movie.<p>
+			<p>In the beginning, Abdul adores the Queen, and he still does at the end. The Queen immediately likes him, and she continues to until her end. The household is against their relationship since the beginning, and remains to be at the end as well. If the movie was comfortable with adjusting the true story of the relationship (as said in the beginning of the movie, "Based on real events ... mostly") then they would have done better to include more opportunities for development. Two conflicts of the movie - Abdul's lie about the Mutiny and his knighthood - are too easily resolved. Victoria & Abdul would have done well to allot time for more plot and character development.</p>
+			<p>Personally, I am uncomfortable by the whitewashing of the film. First, Abdul is blindly devoted to the Queen and empire and little to no effort is made for him to explain how he reconciles working for the Queen while she is also the colonizing ruler of India. He comes off as incompetent and and two-dimensional. His ignorance and lack of a desire for agency appears as him to be used as a token by the Queen to express her frustrations at her household, family, and resentment at her role. He is ultimately selfish when he cares more about his own position and closeness to the Queen instead of listening to the request of his friend Buksh, who is clearly suffering in Britain and humiliated by being remaining a lowly servant.</p>
+			<p>Second, it is uncomfortable and confusing for the Queen to be seen as a progressive supporter of people of color and India when she continues to act uncaring of the subcontinent. In the film, she does not seek out the details of the Mutiny, silences her prime minister when he talks about about famine and problems abroad, and reacts indifferently to Abdul when he explains the tragedies of the Peacock Throne and the Koh-i-Noor diamond. She is ultimately more concerned about using Abdul as a pawn for her own frustrations, so the film's attempt to paint her a progressive champion of race is futile.</p>
+			<p>The historical inaccuracies of the movie deserve their own section. I cringed when "Urdu" was used because historically it was called Hindustani at the time. However, I decided to solely analyze this piece as a film of it's own. More information on inaccuracies can be found on sites such as these.</p>
+			<p>Ultimately, I would not recommend this film for enjoyable or learning purposes. As a Muslim and South Asian with a great interest for that time period, much of the movie was cringeworthy to watch. Abdul's immaturity, the failed attempt to paint Queen Victoria as progressive, lack of plot and character development, and historical inaccuracies make the film difficult to swallow. I hope that more high profile movies with good intentions which try to positively portray the Indian subcontinent come about and that they stay true to the historical context in addition to being light and comedic like Victoria & Abdul is.</p>
+		</div>	
 
+		<div class= "post">
+			<h2 class="post-title">Always-On Alexa</h2>
+			<h3 class="post-meta">Date: February 12, 2018</h3>
+			<img class="post-avatar" src="img/alexa.png" align= "right">
+			<p>My roommates and I were chatting about the political situation in Cuba when out of nowhere, the tucked away Amazon Alexa asked something along the lines of, “I’m sorry, I didn’t understand that. Can you please repeat it?”.<p>
 
+			<p>We laughed at the possibility Alexa started recording when she heard us talking about Cuba and it was being sent to a government archive. After a few seconds I thought, “Well, why not?”.<p>
 
+			<p>In 2014, Luciano Floridi, professor of philosophy, wrote about information friction – “forces which oppose the flow of information” (104). Privacy is a function of informational friction (105). That is, our privacy decreases as the opposing forces of information (friction), decrease. And by introducing more and more intelligent technology into our everyday objects (IoT), purchased with the intention of removing friction to use technology, we are destroying our privacy.<p>
 
-		
+			<p>Alexa, Google Home, Siri, and other similar technologies are always listening. We consumers agree to that when we buy the product. However, I didn’t design Alexa – so how do I know what other words might trigger her to secretly start recording my conversations? What if, like a teddy bear nanny cam, I unknowingly and voluntarily installed a device in my home which records all my roommates and my conversations?<p>
 
-	</div>	
+			<p>Philip Brey, professor of philosophy, wrote in 2010 about how devices have to be evaluated on their embedded values – meaning, a product can still have an impact on others its environment in its dormant state (43). What’s tricky, even, is to ask whether these intelligent personal assistant devices even have a dormant state. As AI technology progresses and then the devices get integrated into our everyday objects (Internet of Things) – will we be able to ever say we are truly alone when we could be surrounded by objects which are inanimate but still have the ability to hear and think? We can’t even argue about “always being listened to” because by purchasing these products, we consent to have them listen to us 24/7 because that the intention they were built with, under the guise of “everyday objects”.<p>
+
+			<p>“But I don’t have an Alexa. I just won’t buy one,” is what some may say to solve the issue. But what if we go to our friend’s house, who does have these technologies, we’re walking into this dilemma. We also have to consider how to manipulate these technologies if we have them but a guest wishes that we don’t activate them in their presence because of their privacy fears.<p>
+
+			<p>So does Amazon listen in on my private conversations and record them? I don’t know. What worries me, however, is that we are on the trend for more AI/IoT devices that we might forget to ask these questions. We can continue to use these products as long as we understand the repercussions. We must continuously pushback and interrogate developers if they are following ethical motives. It is fine to progress, so long we do so in a mindful manner.<p>
+
+		</div>	
+
 	</div>
 	
 
-	<footer class="footer">
+	<footer class="footer" "l-box is-left">
 		<p>Made by Ibrahim Rasheed</p>
 	</footer>
 

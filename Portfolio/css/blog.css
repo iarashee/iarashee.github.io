@@ -17,6 +17,10 @@ h3 {
     font-weight: 100;
 }
 
+body{
+    background-color: #F5FFFA;
+}
+
 /* LAYOUT CSS */
 .pure-img-responsive {
     max-width: 100%;
@@ -27,10 +31,14 @@ h3 {
     padding: 0;
 }
 
+.logo {
+    height: 3em;
+}
 .header {
     text-align: center;
     top: auto;
     margin: 3em auto;
+    lo
 }
 
 .sidebar {
@@ -86,7 +94,8 @@ h3 {
 }
 
 .content {
-    padding: 2em 1em 0;
+    /*padding: 2em 1em 0;*/
+    padding: 0;
 }
 
 .post {
@@ -158,11 +167,10 @@ h3 {
 @media (min-width: 48em) {
     .content {
         padding: 2em 3em 0;
-        margin-left: 25%;
     }
 
     .header {
-        margin: 80% 2em 0;
+        margin: 2em 0;
         text-align: right;
     }
 

@@ -7,36 +7,39 @@
 	<!--Style-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
 
 </head>
 
 <body class="body body-home">
-	<a href="#main-content" class="skip">Skip navigation</a> 
 	
-	<header>
-		<nav id = "top-nav" class="top-nav">
+	<header class="header">
+		<nav>
 			
 			<div class="logo">
 			<a href="index.html"><img src="img/insignia.png" alt="insignia"></a>
        		</div>
 	       
-	       <ul>
-	            <li><a href="index.html">HOME</a></li>
-	            <li><a href="professional.html">Professional</a></li>
-	            <li><a href="blog.html">Blog</a></li>
-	            <li><a class="current-page" href="contact.html">Contact</a></li>
+	       <ul class="pure-menu-horizontal">
+	            <li class="pure-menu-item pure-menu-selected">
+	            	<a href="index.html" class="pure-menu-link">HOME</a></li>
+	           
+	            <li class="pure-menu-item pure-menu-selected">
+	            	<a href="professional.html" class="pure-menu-link">Professional</a></li>
+	           
+	            <li class="pure-menu-item pure-menu-selected">
+	            	<a href="blog.html" class="pure-menu-link">Blog</a></li>
+	           
+	            <li class="pure-menu-item pure-menu-selected">
+	            	<a href="contact.html" class="pure-menu-link">Contact</a></li>
 	        
 	        </ul>   
    		</nav>
 
 
 	</header>
-	<div id="main-content" class="main-content main-content-crafts">
-		
-		<!--Photo Gallery-->
-		
-		<section class="crafts">
-			
+	<div id="main-content" class="pure-form pure-form-aligned">
+					
 			<h3>Feel free to reach out!</h3>
 			
 			<form action="mailto:iarashee@umich.edu" method="post" enctype="text/plain">
@@ -57,10 +60,7 @@
 				<input type="submit" value="Send">
 				<input type="reset" value="Reset">
 			
-			</form>
-		
-		</section>
-	
+			</form>	
 	</div>
 	
 	<footer class="footer">
