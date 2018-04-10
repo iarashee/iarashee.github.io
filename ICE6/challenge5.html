@@ -70,20 +70,20 @@
 	var srcImages = document.getElementsByTagName("img");
 	var mainImage = document.getElementById("image");
 
-	for (var i = 0; i < srcImage.length; i++) {
-		var item = srcImage[i];
+	for (var i = 0; i < srcImages.length; i++) {
+		var item = srcImages[i];
 		item.onmouseenter = function() {
 			console.log("Mouse Entered!")
 			var altText = this.getAttribute("alt")
 			var src = this.getAttribute("src")
-			mainImage.style.background = "url(" + src + ")"
+			mainImage.style.backgroundImage = "url(" + src + ")"
 			mainImage.innerHTML = altText
 	};
 
-		item.onmouseenter = function() {
+		item.onmouseleave = function() {
 			mainImage.innerText = ("Hover over an image below.")
 			console.log("mouse left!")
-			mainImage.style.background = "#8e68ff"
+			mainImage.style.backgroundImage = ""
 			mainImage.innerHTML = "Hover over an image below."
 		};
 	}

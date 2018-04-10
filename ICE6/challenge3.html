@@ -12,6 +12,7 @@
 
       if( (!isRadio1Checked && !isRadio2Checked) || (isRadio1Checked && isRadio2Checked)) {
         console.log("fail");
+        alert("Choose One Berry")
           return false;
       }
       else {
@@ -30,10 +31,10 @@
         <div>
           What's your favorite berry?: 
           <label>
-            <input type="radio" value = "s" id="opt-straw"> Strawberries
+            <input type="radio" value = "s" id="opt-straw" name="Adam"> Strawberries
           </label>
           <label>
-            <input type="radio" value = "b" id="opt-blue"> Blueberries
+            <input type="radio" value = "b" id="opt-blue" name="Adam"> Blueberries
         </label>
       </div>
   </fieldset>

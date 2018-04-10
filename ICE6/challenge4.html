@@ -16,22 +16,29 @@
     	// Write a function that displays the appropriate error message(s) if a field is left blank.  Make sure the form action is not performed if either field is blank.
 
         var fullName = document.getElementById("fullname").value;
-        var Address = document.getElementById("streeadr").value.trim();
+        var Address = document.getElementById("streetaddr").value.trim();
         var nameerrormsg = document.getElementById("nameerrormsg");
-        var addrerrormsg = document.getElementByID("addrerrormsg");
+        var addrerrormsg = document.getElementById("addrerrormsg");
         var isValid = true;
 
-        addrerrormsg.style.display = "none"
-        addrerrormsg.style.display = "none"
-
-        if (fullName && Address) {
-            nameerrormsg.style.display = "block";
-            addrerrormsg.style.display = "block";
+        
+        if (!fullName || !Address){
             isValid = false;
+
+            if (!fullName && !Address) {
+                nameerrormsg.style.display = "block";
+                addrerrormsg.style.display = "block";
+            }
+            else if (!fullName){
+                nameerrormsg.style.display = "block";
+                addrerrormsg.style.display = "none";
+            }
+            else {
+                addrerrormsg.style.display = "block";
+                nameerrormsg.style.display = "none";
+            }
         }
-        else {
-            return isValid;
-        }
+        return isValid;
     }  
     </script>
 </head>

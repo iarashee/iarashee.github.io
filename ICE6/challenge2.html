@@ -26,12 +26,12 @@ Add an if-else statement to your setHomeAddress() function so that when the chec
     <script type="text/javascript">
 	   function setHomeAddress(){
       // YOUR CODE HERE
-      var billingValue = document.getElementById("billing").value;
-      var homeValue = document.getElementById("home").value;
+      var billingValue = document.getElementById("billing");
+      var homeValue = document.getElementById("home");
       var isEqual = document.querySelector("#useBilling").checked;
 
       if (isEqual) {
-        homeValue = billingValue
+        homeValue.value = billingValue.value
         homeValue.setAttribute("readonly", true)
     } else {
         homeValue.value = "";
