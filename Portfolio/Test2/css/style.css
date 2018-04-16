@@ -1272,7 +1272,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .dropdown:hover .dropbtn {
     background-color: #551a8b;
 }
-.btn:active, .btn.active {
+.btn:active, .btn.active, .dropbtn-active {
     outline: 0;
     background:#551a8b;
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
