@@ -11,17 +11,18 @@
 	<div class = "photo-grid">
 		
 		<div class = "left" id = "leftimg">
-			<img src="images/examPic.JPG" id="leftimg" alt="colleen_exam" style="visibility: visible">
+			<img src="images/examPic.JPG" alt="colleen_exam" style="float: left; width: 30%;">
 		</div>
 		
 		<div class = "right">
-			<img src="images/UMSI-logo.jpg" id="rightimg" alt="umsi_logo" style="visibility: visible">
+			<img src="images/UMSI-logo.jpg" id="rightimg" alt="umsi_logo" style="float: left; width: 30%;">
 		</div>
 	
 	</div>
-
-	<button onclick="hide_image()">Hide Image</button>
-	<button onclick="show_image()">Show Image</button>
+	<div class="button" style="white-space: nowrap;">
+		<button onclick="hide_image()">Hide Image</button>
+		<button onclick="show_image()">Show Image</button>
+	</div>
 
 
 
@@ -29,10 +30,13 @@
 	function hide_image() {
     	var x = document.getElementById("leftimg");
     	x.style.display = "none";
+    	var y = document.getElementById("rightimg");
+    	y.style.alignContent="center";
     }
     function show_image() {
     	var x = document.getElementById("leftimg");
     	x.style.display = "block";
+
     }
     </script>
 

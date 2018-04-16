@@ -1,17 +1,14 @@
-h1{
-	color: red;
-}
-img{
+
+body { background-image: url("images/bkg.jpg");}
+img {
 	border: 5px solid blue;
 	padding: 5%;
 }
-body{
-	background: url("images/light-veneer.png");
-}
+
 }
 .photo-grid{ 
-		display: grid;
-  		grid-template-columns: 1fr 1fr 1fr 1fr;
+		display: block;
+  		/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
 }
 .left{
 	grid-column-start: 1;
@@ -20,4 +17,8 @@ body{
 .left{
 	grid-column-start: 3;
     grid-column-end: 4;
+}
+.button{
+	display: block;
+	padding: 0px;
 }
