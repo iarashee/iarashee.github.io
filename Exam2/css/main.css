@@ -1,3 +1,23 @@
 h1{
 	color: red;
 }
+img{
+	border: 5px solid blue;
+	padding: 5%;
+}
+body{
+	background: url("images/light-veneer.png");
+}
+}
+.photo-grid{ 
+		display: grid;
+  		grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.left{
+	grid-column-start: 1;
+    grid-column-end: 2;
+}
+.left{
+	grid-column-start: 3;
+    grid-column-end: 4;
+}
